@@ -1,0 +1,49 @@
+﻿# Project specific
+/artifacts/
+/published/
+
+# Visual Studio ignores
+Bin/
+bin/
+Obj/
+obj/
+*.user
+*.suo
+node_modules/
+dist/
+*.nupkg
+
+# IDE ignores
+.vscode/
+.vs/
+
+# nuget ignores
+packages/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+.builds
+
+# Cake related
+/tools/*
+!/tools/packages.config
